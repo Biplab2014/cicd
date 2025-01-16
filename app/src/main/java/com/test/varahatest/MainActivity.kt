@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
     var rv:RecyclerView ? = null
     val viewModel:TaskViewModel by viewModels()
     var taskList:MutableList<Task> = mutableListOf()
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId  ")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
