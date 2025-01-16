@@ -10,7 +10,7 @@ class TaskViewModel:ViewModel() {
     //var _taskList:LiveData<List<Task>> get() =
 
     fun loadTaskList(){
-        val taskList = listOf(
+        val taskList = listOf  (
             Task(id = 1, title = "Buy Groceries", description = "Milk, Eggs, Bread", status = "To Do"),
             Task(id = 2, title = "Prepare Presentation", description = "Slides for Monday", status = "Pending"),
             Task(id = 1, title = "Buy Groceries", description = "Milk, Eggs, Bread", status = "To Do"),
