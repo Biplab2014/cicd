@@ -22,7 +22,7 @@ import com.test.varahatest.viewModel.TaskViewModel
 
 class MainActivity : ComponentActivity() {
     var rv:RecyclerView ? = null
-    val viewModel:TaskViewModel by viewModels()
+    val viewModel:TaskViewModel by viewModels(())
     var taskList:MutableList<Task> = mutableListOf()
     @SuppressLint("MissingInflatedId  ")
     override fun onCreate(savedInstanceState: Bundle?) {
